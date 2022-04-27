@@ -1,5 +1,10 @@
 # Hantang
-In my second semester, we were given a project to redesign a website called Hantang. During this project I progressed my skills in HTML, CSS, JavaScript and a bit of PHP.
+In my second semester, we were given a project to redesign a website called Hantang. 
+During this project I progressed my skills in:
+-HTML 
+-CSS 
+-JavaScript
+-a bit of PHP
 
 Visit the website:
 http://i303476.hera.fhict.nl/hantang/
