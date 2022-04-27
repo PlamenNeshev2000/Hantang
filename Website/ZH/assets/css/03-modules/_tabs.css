@@ -1,0 +1,43 @@
+/* .tabs {
+	width: 50%;
+	margin-top: var(--section-margin-top);;
+} */
+
+/* Style the tab */
+.tab {
+	display: flex;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+	overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+	flex: 1;
+	font-family: inherit;
+	font-size: inherit;
+	padding: 14px 16px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color: var(--color-primary);
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+	background-color: var(--color-primary--shade-dark);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+	color: var(--color-white);
+	background-color: var(--color-primary--shade-dark);
+}
+
+/* Style the tab content */
+.tabcontent {
+	display: none;
+	width: 100%;
+	/* border: 1px solid #ccc; */
+	border-top: none;
+}

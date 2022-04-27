@@ -1,0 +1,26 @@
+.contact-form textarea,
+.contact-form input {
+	font-family: inherit;
+	font-size: inherit;
+	width: 100%;
+	padding: 1rem 2rem;
+	border: 0;
+	outline: none;
+	background-color: var(--color-white);
+}
+
+.contact-form textarea:focus::placeholder,
+.contact-form input:focus::placeholder {
+	opacity: .5;
+}
+
+.contact-form .btn,
+.contact-form textarea,
+.contact-form input:not(:first-child) {
+	margin-top: 1rem;
+}
+
+.contact-form textarea {
+	resize: none;
+	height: 15vh;
+}

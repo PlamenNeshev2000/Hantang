@@ -1,0 +1,58 @@
+.btn.solid {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 2rem;
+	color: var(--color-white);
+	width: max-content;
+	padding: 1.5rem 0;
+	border: 0;
+	cursor: pointer;
+}
+
+.btn.solid.small {
+	font-size: 1rem;
+	padding: .75rem;
+	width: 100%;
+	max-width: unset;
+	justify-content: center;
+}
+
+.btn.solid.orange {
+	background-color: var(--color-secondary);
+}
+
+.btn.solid.orange:hover {
+	background-color: rgb(230, 150, 0);
+}
+
+.btn.solid.green {
+	background-color: var(--color-primary);
+}
+
+.btn.solid .square {
+	background-image: url("/assets/images/square.png"); 
+	width: 50px;
+	height: 50px;
+	margin-left: 1rem;
+	background-size: cover;
+}
+
+.btn.solid span {
+	margin: 0 1rem;
+}
+
+.btn.solid .arrow-right {
+	background-image: url("/assets/images/arrow.png"); 
+	width: 40px;
+	height: 40px;
+	margin-right: 1rem;
+	background-size: cover;
+}
+
+@media all and (min-width: 960px) {
+	.btn.solid {
+		max-width: 30vw;
+	}
+}
+

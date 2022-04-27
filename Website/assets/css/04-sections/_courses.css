@@ -1,0 +1,11 @@
+.courses {
+	margin-top: var(--section-margin-top);;
+}
+
+.courses .tabs {
+	width: 100%;
+}
+
+.courses .courses-description {
+	width: 100%;
+}

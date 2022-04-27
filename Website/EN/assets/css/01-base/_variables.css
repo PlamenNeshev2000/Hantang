@@ -1,0 +1,10 @@
+:root {
+	--color-primary: #3FBF65;
+	--color-primary--shade-light: #F2F9F4;
+	--color-primary--shade-dark: #1e9c44;;
+	--color-secondary: #F69B1B;
+	--color-white: white;
+	--color-black: black;
+	--section-margin-top: 10vh;
+	/* --swiper-theme-color: #000; */
+}

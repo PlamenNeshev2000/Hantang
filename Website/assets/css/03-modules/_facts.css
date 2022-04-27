@@ -1,0 +1,46 @@
+.facts {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 30vh;
+	margin-top: var(--section-margin-top);
+}
+
+.facts-title {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.facts-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.facts-content .fact {
+	text-align: center;
+	margin: 0 2rem;
+	margin-top: 2rem;
+}
+
+.facts-content .fact span {
+	font-size: 2rem;
+	color: var(--color-primary);
+}
+
+.facts-content .fact h3 {
+	margin-top: 1rem;
+}
+
+@media all and (min-width: 960px) {
+	.facts-content {
+		flex-direction: row;
+	}
+	.facts {
+		margin-top: 0;
+	}
+	.facts .fact {
+		margin-top: 0;
+	}
+}

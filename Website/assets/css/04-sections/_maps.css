@@ -1,0 +1,22 @@
+.maps {
+	margin-top: var(--section-margin-top);;
+}
+
+.maps .container {
+	position: relative;
+	flex-direction: column;
+}
+
+.maps .location {
+	position: absolute;
+	top: 0;
+	right: 2rem;
+	padding: 1rem 4rem;
+	background-color: var(--color-white);
+}
+
+.maps iframe {
+	width: 100%;
+	min-height: 40vh;
+	margin-top: 0 !important;
+}

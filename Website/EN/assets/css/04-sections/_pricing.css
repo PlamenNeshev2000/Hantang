@@ -1,0 +1,28 @@
+.pricing {
+	margin-top: var(--section-margin-top);;
+}
+
+.pricing .container {
+	align-items: center;
+}
+
+.pricing .pricing-cta {
+	display: flex;
+	width: 100%;
+}
+
+.pricing .pricing-description {
+	width: 100%;
+}
+
+
+@media all and (min-width: 960px) {
+	.pricing .pricing-cta {
+		justify-content: flex-end;
+		width: calc(45% - 3rem);
+	}
+	
+	.pricing .pricing-description {
+		width: calc(55% - 3rem);
+	}
+}

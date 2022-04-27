@@ -1,0 +1,28 @@
+.buttons-group {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	width: 100%;
+	margin-top: var(--section-margin-top);;
+}
+
+.buttons-group .btn.solid {
+	flex: 1;
+	width: 100%;
+}
+
+.buttons-group .btn.solid:not(:first-child) {
+	margin-top: 1rem;
+}
+
+@media all and (min-width: 960px) {
+	.buttons-group {
+		flex-direction: row;
+	}
+	.buttons-group .btn.solid:not(:first-child) {
+		margin-top: 0;
+	}
+	.buttons-group .btn.solid:not(:last-child) {
+		margin-right: 3rem;
+	}
+}

@@ -1,0 +1,32 @@
+/* Base */
+@import './01-base/_variables.css';
+@import './01-base/_base.css';
+
+/* Elements */
+@import './02-elements/_button.css';
+@import './02-elements/_popup-image.css';
+@import './02-elements/_swiper-buttons.css';
+
+/* modules */
+@import './03-modules/_page-menu.css';
+@import './03-modules/_latest-news.css';
+@import './03-modules/_agenda.css';
+@import './03-modules/_facts.css';
+@import './03-modules/_accordion.css';
+@import './03-modules/_accordion-block.css';
+@import './03-modules/_fullscreen-slider.css';
+@import './03-modules/_tabs.css';
+@import './03-modules/_pricing-cards.css';
+@import './03-modules/_contact-form.css';
+
+/* Sections */
+@import './04-sections/_footer.css';
+@import './04-sections/_buttons-group.css';
+@import './04-sections/_two-columns.css';
+@import './04-sections/_multiple-slider.css';
+@import './04-sections/_archive.css';
+@import './04-sections/_courses.css';
+@import './04-sections/_pricing.css';
+@import './04-sections/_showcase.css';
+@import './04-sections/_news-timeline.css';
+@import './04-sections/_maps.css';

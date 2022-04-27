@@ -1,0 +1,20 @@
+.accordionWrapper.block {
+	background: #fff;
+}
+
+.accordionWrapper.block .accordionItem {
+	border: 1px solid #f1f1f1;
+}
+
+.accordionWrapper.block .accordionItemHeader {
+	color: black;
+	background-color: var(--color-primary--shade-light);
+}
+
+.accordionWrapper.block .open .accordionItemHeader {
+	color: black;
+}
+
+.accordionWrapper.block .open .accordionItemContent {
+	background-color: #fff;
+}
